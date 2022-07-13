@@ -10,8 +10,8 @@ function asideSectionTogglerBtn(){
  const allLinks = document.querySelectorAll('.links');
  allLinks.forEach(function(e){
     e.addEventListener('click', function(){
-        allLinks.forEach((e)=>{
-            e.classList.remove("active");
+        allLinks.forEach((j)=>{
+            j.classList.remove("active");
         })
         e.classList.add("active");
 
@@ -19,14 +19,3 @@ function asideSectionTogglerBtn(){
         navTogglerBtn.classList.remove('open');
     })
  })
-const sections = document.querySelectorAll('.main-content section');
-window.addEventListener('scroll', ()=>{
-    sections.forEach((e)=>{
-        if(e.getBoundingClientRect().top === 300){
-             allLinks.forEach((e)=>{
-                e.classList.remove("active");
-            })
-            e.classList.add("active");
-        }
-    })
-})

@@ -217,8 +217,7 @@ h3.hello{
     font-size: 20px;
     color: var(--text-black-700);
 }
-.hello .name{
-    font-family: 'Clicker Script' , cursive;
+.hello .name{    
     font-size: 30px;
     font-weight: 700;
     color: var(--skin-color);
