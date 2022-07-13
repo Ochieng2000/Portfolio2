@@ -233,7 +233,9 @@ h3.my-profession{
     position: relative;
 }
 .home .home-img img{
-    height: 400px;
+   width: 300px;
+   height: 400px;
+    object-fit: contain;
 }
 .home-img::after{
     content: '';
@@ -640,7 +642,7 @@ h3.my-profession{
     padding: 0 50px;
     cursor: pointer;
 }
-@media (max-width: 1300px){
+@media (max-width: 1380px){
     .aside{
         left: -270px;
     }
